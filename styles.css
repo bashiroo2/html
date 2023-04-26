@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* style.css */
+.title {
+  font-family: 'Roboto', sans-serif; /* Use Roboto font or any other professional-looking font */
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold; /* Add bold or other font weight as desired */
+  text-transform: uppercase; /* Convert the title to uppercase for a professional look */
+  color: #333; /* Choose a suitable color for the title */
+}
+/* Styles for body and html elements */
+body, html {
+  height: 100vh;
+  margin: 0; /* Add this line to remove margin */
+}
+body, html {
+  font-family: "Roboto", sans-serif; /* Use Roboto font for body and html elements */
+}
+
+/* Styles for header */
+header {
+  background-image: linear-gradient(to right, #ffcccb, #ffb6c1);
+  color: #fff;
+  padding: 20px;
+}
+
+/* Styles for navigation menu */
+nav ul {
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for main sections */
+main {
+  padding: 0%;
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 344%;
+}
+
+
+
+section {
+  margin-bottom: 0px;
+}
+h1 {
+  font-family: 'Roboto', sans-serif; /* Use Roboto font or any other professional-looking font */
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold; /* Add bold or other font weight as desired */
+  text-transform: uppercase; /* Convert the title to uppercase for a professional look */
+  color: #333; /* Choose a suitable color for the title */
+  text-align: center;
+}
+/* Styles for form in contact section */
+form {
+  margin-top: 20px;
+
+}
+
+form label {
+  display: block;
+}
+
+form input, form textarea {
+  width: 40%;
+  height: 20px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+}
